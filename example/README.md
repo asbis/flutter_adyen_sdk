@@ -1,16 +1,27 @@
-# Adyen Libary
+# flutter_adyen_sdk
 
-A new Flutter project.
+An Adyen Flutter plugin to support the Adyen API integration.
+
+It exposes the `EncryptedCard` class's method `encryptToken` and `encryptCard`.
+
+the example shows how you can store cards, add cards or make payment through Adyen.
+
+![](video2.gif)
+
 
 ## Getting Started
+Run the example app and change the keys to yours. 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Android
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The Android version requires the following permission to be set:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+
+## iOS
+
+The iOS version requires the ios hosting project to target iOS 10.3 or above.
+This is a limitation of the iOS SDK.

@@ -1,18 +1,16 @@
-# adyen_flutter
+# flutter_adyen_sdk
 
 An Adyen Flutter plugin to support the Adyen API integration.
 
 It exposes the `EncryptedCard` class's method `encryptToken` and `encryptCard`.
 
-## Getting Started
+the example shows how you can store cards, add cards or make payment through Adyen.
 
-This Plugin relies on the following Adyen SDK:
-+ [Adyen iOS SDK](https://github.com/Adyen/adyen-ios)
-    with the [Adyen Pod 2.7.2](https://cocoapods.org/pods/Adyen)
-+ [Adyen Android SDK](https://github.com/Adyen/adyen-android)
-    with the packages:
-    - com.adyen.checkout:core:2.3.1
-    - com.adyen.checkout:core-card:2.3.1
+![](video2.gif)
+
+
+## Getting Started
+Run the example app and change the keys to yours. 
 
 
 ## Android
