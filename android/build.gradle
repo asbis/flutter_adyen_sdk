@@ -3,17 +3,19 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {
+        mavenCentral()
         google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:7.1.2'
     }
 }
 
 rootProject.allprojects {
     repositories {
+        mavenCentral()
         google()
         jcenter()
     }
@@ -25,8 +27,8 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 16
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        minSdkVersion 21
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
         disable 'InvalidPackage'
